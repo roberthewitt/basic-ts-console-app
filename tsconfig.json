@@ -4,9 +4,10 @@
     "lib": ["es2017", "es2015", "dom", "es6"],
     "module": "commonjs",
     "outDir": "./build",
-    "sourceMap": false,
+    "sourceMap": true,
     "strict": true
   },
   "include": ["**.ts"],
   "exclude": ["node_modules"]
 }
+
